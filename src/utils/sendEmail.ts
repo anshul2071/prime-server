@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
 
 
 
-export const sendVerifcationEmail = async (
+export const sendVerificationEmail = async (
     to: string,
     token: string,
 
